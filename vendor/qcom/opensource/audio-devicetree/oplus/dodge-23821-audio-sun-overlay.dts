@@ -1,0 +1,12 @@
+/dts-v1/;
+/plugin/;
+#include <dt-bindings/oplus/hw-id.h>
+#include "../sun-audio-mtp-nfc.dts"
+#include "sun-audio-overlay-common.dtsi"
+#include "dodge-23821-audio-sun-overlay.dtsi"
+
+/ {
+    model = "Qualcomm Technologies, Inc. Sun MTP,dodge";
+
+    oplus,project-id = <23821 23893 23894 23895>;
+};

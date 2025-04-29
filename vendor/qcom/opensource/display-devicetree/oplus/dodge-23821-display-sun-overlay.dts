@@ -1,0 +1,12 @@
+/dts-v1/;
+/plugin/;
+#include <dt-bindings/oplus/hw-id.h>
+#include "../display/sun-sde-display-mtp-v8-overlay.dts"
+#include "sun-display-overlay-common.dtsi"
+#include "dodge-23821-display-sun-overlay.dtsi"
+
+/ {
+	model = "Qualcomm Technologies, Inc. Sun MTP,dodge";
+
+	oplus,project-id = <23821 23893 23894 23895>;
+};
